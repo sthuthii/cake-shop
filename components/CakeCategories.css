@@ -1,0 +1,45 @@
+/* CakeCategories.css */
+*{
+    
+    width: 100%;
+}
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+  }
+
+  .category-list{
+    display: flex;
+  }
+
+  
+  .category-card {
+    background-color: rgb(244, 145, 79);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    height: 350px;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .category-card:hover{
+    padding: 10px;
+    border: 5px solid pink;
+  }
+  
+  .category-card img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .category-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
